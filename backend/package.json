@@ -1,0 +1,16 @@
+{
+  "name": "uno-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "ngrok": "node ngrok.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
